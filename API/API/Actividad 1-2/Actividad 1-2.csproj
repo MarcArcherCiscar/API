@@ -173,14 +173,14 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\PartidosController.cs" />
+    <Compile Include="Controllers\ApuestasController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Apuestas.cs" />
-    <Compile Include="Models\Partido.cs" />
-    <Compile Include="Models\PartidosRepository.cs" />
+    <Compile Include="Models\eventosFutbol.cs" />
+    <Compile Include="Models\ApuestasRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

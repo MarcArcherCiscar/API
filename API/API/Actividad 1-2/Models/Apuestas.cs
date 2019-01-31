@@ -7,6 +7,7 @@ namespace Actividad_1_2.Models
 {
     public class Apuestas
     {
+        //definim variables i les pasem al constructor
         public int id_apuesta { get; set; }
         public int id_partido { get; set; }
         public double over_under { get; set; }
